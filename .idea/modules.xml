@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PersonalPortfolioWebpage.iml" filepath="$PROJECT_DIR$/.idea/PersonalPortfolioWebpage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ProductLandingPageNew/.idea/ProductLandingPageNew.iml" filepath="$PROJECT_DIR$/../ProductLandingPageNew/.idea/ProductLandingPageNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/../TechnicalDocumentationPage/.idea/TechnicalDocumentationPage.iml" filepath="$PROJECT_DIR$/../TechnicalDocumentationPage/.idea/TechnicalDocumentationPage.iml" />
     </modules>
   </component>
