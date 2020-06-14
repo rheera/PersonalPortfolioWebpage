@@ -1,3 +1,7 @@
+body {
+    font-family: Lato, "Helvetica Neue", OpenS, sans-serif;
+}
+
 #welcome-section {
     height: 100vh;
     background: linear-gradient(90deg, #4e4e4e, #1f1f1f);
@@ -7,6 +11,21 @@
 .welcome-div {
     align-self: center;
     text-align: center;
+}
+h1 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+.welcome-p {
+    margin-top: 0;
+    color: #8e0909;
+    font-size: 2.5em;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-stretch: ultra-expanded;
 }
 
 #navbar {
@@ -26,6 +45,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 2em;
+    justify-items: center;
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1076px) {
