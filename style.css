@@ -1,5 +1,12 @@
 #welcome-section {
     height: 100vh;
+    background: linear-gradient(90deg, #4e4e4e, #1f1f1f);
+    display: flex;
+    justify-content: center;
+}
+.welcome-div {
+    align-self: center;
+    text-align: center;
 }
 
 #navbar {
@@ -10,9 +17,29 @@
     background: rgba(255, 255, 255, 0.5);
 }
 
+.projects-title {
+    text-align: center;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 2em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1076px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
 }
